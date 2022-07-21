@@ -1,0 +1,20 @@
+.logo {
+  padding-top: 25px;
+  padding-bottom: 25px;
+
+  &__link {
+  }
+
+  &__first-text-part {
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+
+    color: $accent-color;
+  }
+  &__second-text-part {
+    color: $logo-second-text-part-color-header;
+  }
+}

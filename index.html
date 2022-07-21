@@ -11,51 +11,58 @@
     />
     <!-- <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css"> -->
     <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./sass/main.css" />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body class="page">
     <!-- Шапка -->
-    <header class="navigation-bar">
-      <div class="navigation-bar-wrapper container">
+    <header class="page-header">
+      
+      <div class="container container--page-header">
+
         <nav class="navigation">
-          <a class="link" href="/"
-            ><span class="logo"> Web<span class="lastpart-logo-header">Studio</span> </span></a
-          >
-          <ul class="navigation-pages list">
-            <li>
-              <a class="link active-page" href="./index.html">Студия</a>
+
+          <div class="logo">
+            <a class="logo__link" href="/"
+              ><span class="logo__first-text-part">
+                Web<span class="logo__second-text-part">Studio</span>
+              </span></a
+            >
+          </div>
+
+          <ul class="navigation__pages">
+            <li class="navigation__item">
+              <a class="navigation__link navigation__link--active-page" href="./index.html">Студия</a>
             </li>
-            <li>
-              <a class="link navigation-page" href="./portfolio.html">
-                <!-- <span class="ef1">1</span> -->
-                Портфолио
-                <!-- <span class="ef2"></span> -->
-              </a>
+            <li class="navigation__item">
+              <a class="navigation__link navigation__link--hover" href="./portfolio.html">Портфолио</a>
             </li>
-            <li>
-              <a class="link navigation-page" href="./contacts.html">Контакты</a>
+            <li class="navigation__item">
+              <a class="navigation__link navigation__link--hover" href="./contacts.html">Контакты</a>
             </li>
           </ul>
+
         </nav>
 
-        <ul class="navigation-contacts list">
-          <li>
-            <a class="link contacts" href="mailto:info@example.com">
-              <svg class="icon icon-letter">
+        <ul class="contacts">
+          <li class="contacts__item">
+            <a class="contacts__link" href="mailto:info@example.com">
+              <svg class="contacts__icon contacts__icon--email">
                 <use xlink:href="./images/icons.svg#icon-letter"></use>
               </svg>
               info@devstudio.com
             </a>
           </li>
-          <li>
-            <a class="link contacts" href="tel:380961111111">
-              <svg class="icon icon-phone">
+          <li class="contacts__item">
+            <a class="contacts__link" href="tel:380961111111">
+              <svg class="contacts__icon contacts__icon--tel">
                 <use xlink:href="./images/icons.svg#icon-phone"></use>
               </svg>
               +38 099 111 11 11
             </a>
           </li>
         </ul>
+        
       </div>
     </header>
 
