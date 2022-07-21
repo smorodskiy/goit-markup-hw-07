@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Портфолио</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body class="page">
+    <!-- Шапка -->
+    <header class="navigation-bar">
+      <div class="navigation-bar-wrapper container">
+        <nav class="navigation">
+          <a class="link" href="/"
+            ><span class="logo"> Web<span class="lastpart-logo-header">Studio</span> </span></a
+          >
+          <ul class="navigation-pages list">
+            <li>
+              <a class="link navigation-page" href="./index.html">Студия</a>
+            </li>
+            <li>
+              <a class="link active-page" href="./portfolio.html">Портфолио</a>
+            </li>
+            <li>
+              <a class="link navigation-page" href="./contacts.html">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+
+        <ul class="navigation-contacts list">
+          <li>
+            <a class="link contacts" href="mailto:info@example.com">
+              <svg class="icon icon-letter">
+                <use xlink:href="./images/icons.svg#icon-letter"></use>
+              </svg>
+              info@devstudio.com
+            </a>
+          </li>
+          <li>
+            <a class="link contacts" href="tel:380961111111">
+              <svg class="icon icon-phone">
+                <use xlink:href="./images/icons.svg#icon-phone"></use>
+              </svg>
+              +38 099 111 11 11
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-portfolio section">
+        <h1 class="page-portfolio-title">Страница с шаблонами</h1>
+
+        <!-- Фильтр -->
+        <div class="filter-section">
+          <h2 class="filter-title">Фильтр</h2>
+          <ul class="filter-list">
+            <li class="filter-item list">
+              <button class="filter-btn angleinleft bouncein active-filter" type="button">
+                Все
+              </button>
+            </li>
+            <li class="filter-item list">
+              <button class="filter-btn angleinleft bouncein" type="button">Веб-сайты</button>
+            </li>
+            <li class="filter-item list">
+              <button class="filter-btn angleinleft bouncein" type="button">Приложения</button>
+            </li>
+            <li class="filter-item list">
+              <button class="filter-btn angleinleft bouncein" type="button">Дизайн</button>
+            </li>
+            <li class="filter-item list">
+              <button class="filter-btn angleinleft bouncein" type="button">Маркетинг</button>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Шаблоны -->
+        <section class="template-section">
+          <!-- <h2 class="template-section-title"></h2> -->
+          <div class="container">
+            <ul class="template-head list">
+              <li class="template-item">
+                <a href="#" class="link template-item-link">
+                  <div class="template-top-wrapper">
+                    <img src="./images/template1.jpg" alt="Шаблон Технокряк" width="370" />
+                    <p class="template-item-desc">
+                      Ресурс предлагает комплексные предложения с разным уровнем функционала и
+                      сервисов. Все это позволит посетителю получить исчерпывающие сведения о
+                      компании или частном лице.
+                    </p>
+                  </div>
+
+                  <div class="template-bottom-wrapper">
+                    <h3 class="template-title">Технокряк</h3>
+                    <p class="template-content">Веб-сайт</p>
+                  </div>
+                </a>
+              </li>
+              <li class="template-item">
+                <a href="#" class="link template-item-link">
+                  <div class="template-top-wrapper">
+                    <img
+                      src="./images/template2.jpg"
+                      alt="Шаблон Постер New Orlean vs Golden Star"
+                      width="370"
+                    />
+                    <p class="template-item-desc">
+                      Ресурс предлагает комплексные предложения с разным уровнем функционала и
+                      сервисов. Все это позволит посетителю получить исчерпывающие сведения о
+                      компании или частном лице.
+                    </p>
+                  </div>
+                  <div class="template-bottom-wrapper">
+                    <h3 class="template-title">Постер New Orlean vs Golden Star</h3>
+                    <p class="template-content">Дизайн</p>
+                  </div>
+                </a>
+              </li>
+              <li class="template-item">
+                <a href="#" class="link template-item-link">
+                  <div class="template-top-wrapper">
+                    <img src="./images/template3.jpg" alt="Шаблон Ресторан Seafood" width="370" />
+                    <p class="template-item-desc">
+                      Ресурс предлагает комплексные предложения с разным уровнем функционала и
+                      сервисов. Все это позволит посетителю получить исчерпывающие сведения о
+                      компании или частном лице.
+                    </p>
+                  </div>
+                  <div class="template-bottom-wrapper">
+                    <h3 class="template-title">Ресторан Seafood</h3>
+                    <p class="template-content">Приложение</p>
+                  </div>
+                </a>
+              </li>
+              <li class="template-item">
+                <a href="#" class="link template-item-link">
+                  <div class="template-top-wrapper">
+                    <img src="./images/template4.jpg" alt="Шаблон Проект Prime" width="370" />
+                    <p class="template-item-desc">
+                      Ресурс предлагает комплексные предложения с разным уровнем функционала и
+                      сервисов. Все это позволит посетителю получить исчерпывающие сведения о
+                      компании или частном лице.
+                    </p>
+                  </div>
+                  <div class="template-bottom-wrapper">
+                    <h3 class="template-title">Проект Prime</h3>
+                    <p class="template-content">Маркетинг</p>
+                  </div>
+                </a>
+              </li>
+              <li class="template-item">
+                <a href="#" class="link template-item-link">
+                  <div class="template-top-wrapper">
+                    <img src="./images/template5.jpg" alt="Шаблон Проект Boxes" width="370" />
+                    <p class="template-item-desc">
+                      Ресурс предлагает комплексные предложения с разным уровнем функционала и
+                      сервисов. Все это позволит посетителю получить исчерпывающие сведения о
+                      компании или частном лице.
+                    </p>
+                  </div>
+                  <div class="template-bottom-wrapper">
+                    <h3 class="template-title">Проект Boxes</h3>
+                    <p class="template-content">Приложение</p>
+                  </div>
+                </a>
+              </li>
+              <li class="template-item">
+                <a href="#" class="link template-item-link">
+                  <div class="template-top-wrapper">
+                    <img
+                      src="./images/template6.jpg"
+                      alt="Шаблон Inspiration has no Borders"
+                      width="370"
+                    />
+                    <p class="template-item-desc">
+                      Ресурс предлагает комплексные предложения с разным уровнем функционала и
+                      сервисов. Все это позволит посетителю получить исчерпывающие сведения о
+                      компании или частном лице.
+                    </p>
+                  </div>
+                  <div class="template-bottom-wrapper">
+                    <h3 class="template-title">Inspiration has no Borders</h3>
+                    <p class="template-content">Веб-сайт</p>
+                  </div>
+                </a>
+              </li>
+              <li class="template-item">
+                <a href="#" class="link template-item-link">
+                  <div class="template-top-wrapper">
+                    <img
+                      src="./images/template7.jpg"
+                      alt="Шаблон Издание Limited Edition"
+                      width="370"
+                    />
+                    <p class="template-item-desc">
+                      Ресурс предлагает комплексные предложения с разным уровнем функционала и
+                      сервисов. Все это позволит посетителю получить исчерпывающие сведения о
+                      компании или частном лице.
+                    </p>
+                  </div>
+                  <div class="template-bottom-wrapper">
+                    <h3 class="template-title">Издание Limited Edition</h3>
+                    <p class="template-content">Дизайн</p>
+                  </div>
+                </a>
+              </li>
+              <li class="template-item">
+                <a href="#" class="link template-item-link">
+                  <div class="template-top-wrapper">
+                    <img src="./images/template8.jpg" alt="Шаблон Проект LAB" width="370" />
+                    <p class="template-item-desc">
+                      Ресурс предлагает комплексные предложения с разным уровнем функционала и
+                      сервисов. Все это позволит посетителю получить исчерпывающие сведения о
+                      компании или частном лице.
+                    </p>
+                  </div>
+                  <div class="template-bottom-wrapper">
+                    <h3 class="template-title">Проект LAB</h3>
+                    <p class="template-content">Маркетинг</p>
+                  </div>
+                </a>
+              </li>
+              <li class="template-item">
+                <a href="#" class="link template-item-link">
+                  <div class="template-top-wrapper">
+                    <img src="./images/template9.jpg" alt="Шаблон Growing Business" width="370" />
+                    <p class="template-item-desc">
+                      Ресурс предлагает комплексные предложения с разным уровнем функционала и
+                      сервисов. Все это позволит посетителю получить исчерпывающие сведения о
+                      компании или частном лице.
+                    </p>
+                  </div>
+                  <div class="template-bottom-wrapper">
+                    <h3 class="template-title">Growing Business</h3>
+                    <p class="template-content">Приложение</p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <!-- Подвал -->
+    <footer class="page-footer">
+      <div class="container footer-container">
+        <div class="address-box">
+          <a class="link" href="/"
+            ><span class="logo"> Web<span class="lastpart-logo-footer">Studio</span> </span></a
+          >
+          <!-- Блок с адресом -->
+          <address>
+            <ul class="address-list list">
+              <li class="address-list-item">
+                <a
+                  class="link address-text-footer"
+                  href="https://www.google.com.ua/maps/@50.4863234,30.4790756,13z?hl=ru"
+                  >г. Киев, пр-т Леси Украинки, 26</a
+                >
+              </li>
+              <li class="address-list-item">
+                <a class="link contacts-text-footer" href="mailto:info@example.com"
+                  >info@example.com</a
+                >
+              </li>
+              <li class="address-list-item">
+                <a class="link contacts-text-footer" href="tel:380991111111">+38 099 111 11 11</a>
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div class="social-box">
+          <h2 class="social-box-title">присоединяйтесь</h2>
+          <div class="social-icons-box">
+            <ul class="social-icons-list list">
+              <li>
+                <a class="link social-icon-link first" href="http://instagram.com/smorodsky">
+                  <div class="social-icon-ellipse">
+                    <svg class="icon icon-instagram">
+                      <use xlink:href="./images/icons.svg#icon-instagram"></use>
+                    </svg>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a class="link social-icon-link" href="http://twitter.com/smorodskiy">
+                  <div class="social-icon-ellipse">
+                    <svg class="icon icon-twitter">
+                      <use xlink:href="./images/icons.svg#icon-twitter"></use>
+                    </svg>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a class="link social-icon-link" href="http://facebook.com/smorodsky">
+                  <div class="social-icon-ellipse">
+                    <svg class="icon icon-facebook">
+                      <use xlink:href="./images/icons.svg#icon-facebook"></use>
+                    </svg>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a class="link social-icon-link" href="http://linkedin.com/in/igor-smorodskiy">
+                  <div class="social-icon-ellipse">
+                    <svg class="icon icon-linkedin">
+                      <use xlink:href="./images/icons.svg#icon-linkedin"></use>
+                    </svg>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="subscribe-box">
+          <form action="#">
+            <h2 class="subscribe-box-title">Подпишитесь на рассылку</h2>
+            <input class="subscribe-box-input" type="email" name="email" placeholder="E-Mail"/>
+            <button class="subscribe-box-btn btn" type="submit">
+              Подписаться<svg class="subscribe-box-btn-icon">
+                <use xlink:href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
