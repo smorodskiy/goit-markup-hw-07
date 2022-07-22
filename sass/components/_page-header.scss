@@ -4,7 +4,7 @@
   border-bottom-style: solid;
   border-bottom-width: 1px;
 
-  .container--page-header {
+  &__container {
     display: flex;
     justify-content: space-between;
   }

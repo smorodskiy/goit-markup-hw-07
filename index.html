@@ -18,7 +18,7 @@
     <!-- Шапка -->
     <header class="page-header">
       
-      <div class="container container--page-header">
+      <div class="container page-header__container">
 
         <nav class="navigation">
 
@@ -68,110 +68,121 @@
 
     <main>
       <section class="page-main">
-        <h1 class="page-main-title">Веб-студия по разработке сайтов</h1>
+        <h1 class="page-main__title is-hidden">Веб-студия по разработке сайтов</h1>
 
         <!-- Заказать услугу -->
         <!-- <div class="container"> -->
         <section class="order-section">
-          <h2 class="order-title">Эффективные решения<br />для вашего бизнеса</h2>
-          <button class="order-btn btn" type="button" data-modal-open>
+          <h2 class="order-section__title">Эффективные решения<br />для вашего бизнеса</h2>
+          <button class="btn btn--order-section" type="button" data-modal-open>
             Заказать услугу <span></span><span></span><span></span><span></span>
           </button>
         </section>
         <!-- </div> -->
         <!-- Особенности -->
-        <section class="quality-section section">
-          <div class="container">
-            <h2 class="quality-section-title">Особенности</h2>
-            <ul class="quality-list list">
-              <li class="quality-list-item">
-                <div class="quality-list-icon-box">
-                  <svg class="icon icon-antenna">
+        <section class="quality-section">
+
+          <div class="container quality-section__container">
+
+            <h2 class="quality-section__title is-hidden">Особенности</h2>
+
+            <ul class="quality-section__list">
+
+              <li class="quality-section__item">
+                <div class="quality-section__icon-wrapper">
+                  <svg class="quality-section__icon">
                     <use xlink:href="./images/icons.svg#icon-antenna"></use>
                   </svg>
                 </div>
-                <h3 class="quality-title">Внимание к деталям</h3>
-                <p class="quality-content">
+                <h3 class="quality-section__item-title">Внимание к деталям</h3>
+                <p class="quality-section__text">
                   Идейные соображения, а также начало повседневной работы по формированию позиции.
                 </p>
               </li>
-              <li class="quality-list-item">
-                <div class="quality-list-icon-box">
-                  <svg class="icon icon-clock">
+
+              <li class="quality-section__item">
+                <div class="quality-section__icon-wrapper">
+                  <svg class="quality-section__icon">
                     <use xlink:href="./images/icons.svg#icon-clock"></use>
                   </svg>
                 </div>
-                <h3 class="quality-title">Пунктуальность</h3>
-                <p class="quality-content">
+                <h3 class="quality-section__item-title">Пунктуальность</h3>
+                <p class="quality-section__text">
                   Задача организации, в особенности же рамки и место обучения кадров влечет за
                   собой.
                 </p>
               </li>
-              <li class="quality-list-item">
-                <div class="quality-list-icon-box">
-                  <svg class="icon icon-diagram">
+
+              <li class="quality-section__item">
+                <div class="quality-section__icon-wrapper">
+                  <svg class="quality-section__icon">
                     <use xlink:href="./images/icons.svg#icon-diagram"></use>
                   </svg>
                 </div>
-                <h3 class="quality-title">Планирование</h3>
-                <p class="quality-content">
+                <h3 class="quality-section__item-title">Планирование</h3>
+                <p class="quality-section__text">
                   Равным образом консультация с широким активом в значительной степени
                   обуславливает.
                 </p>
               </li>
-              <li class="quality-list-item">
-                <div class="quality-list-icon-box">
-                  <svg class="icon icon-astronaut">
+
+              <li class="quality-section__item">
+                <div class="quality-section__icon-wrapper">
+                  <svg class="quality-section__icon">
                     <use xlink:href="./images/icons.svg#icon-astronaut"></use>
                   </svg>
                 </div>
-                <h3 class="quality-title">Современные технологии</h3>
-                <p class="quality-content">
+                <h3 class="quality-section__item-title">Современные технологии</h3>
+                <p class="quality-section__text">
                   Значимость этих проблем настолько очевидна, что реализация плановых заданий.
                 </p>
               </li>
+
             </ul>
           </div>
+
         </section>
 
         <!-- Чем мы занимаемся -->
-        <section class="ourskills-section section">
-          <div class="container">
-            <h2 class="ourskills-title">Чем мы занимаемся</h2>
-            <ul class="ourskills-list list">
-              <li class="ourskills-list-item">
+        <section class="ourskills-section">
+          <div class="container ourskills-section__container">
+            
+            <h2 class="ourskills-section__title">Чем мы занимаемся</h2>
+
+            <ul class="ourskills-section__list">
+              <li class="ourskills-section__item">
                 <img
-                  class="ourskills-list-item-pic"
+                  class="ourskills-section__picture"
                   src="./images/wedo1.jpg"
                   alt="Верстка"
                   width="370"
                 />
-                <p class="ourskills-list-item-text">Десктопные приложения</p>
+                <p class="ourskills-section__text">Десктопные приложения</p>
               </li>
-              <li class="ourskills-list-item">
+              <li class="ourskills-section__item">
                 <img
-                  class="ourskills-list-item-pic"
+                  class="ourskills-section__picture"
                   src="./images/wedo2.jpg"
                   alt="Дизайн"
                   width="370"
                 />
-                <p class="ourskills-list-item-text">Мобильные приложения</p>
+                <p class="ourskills-section__text">Мобильные приложения</p>
               </li>
-              <li class="ourskills-list-item">
+              <li class="ourskills-section__item">
                 <img
-                  class="ourskills-list-item-pic"
+                  class="ourskills-section__picture"
                   src="./images/wedo3.jpg"
                   alt="Стиль"
                   width="370"
                 />
-                <p class="ourskills-list-item-text">Дизайнерские решения</p>
+                <p class="ourskills-section__text">Дизайнерские решения</p>
               </li>
             </ul>
           </div>
         </section>
 
         <!-- Наша команда -->
-        <section class="team-section section">
+        <section class="team-section">
           <div class="container">
             <h2 class="team-title">Наша команда</h2>
             <ul class="team-list list">

@@ -1,9 +1,17 @@
 @import 'utils/variables.scss';
 @import 'utils/extendes.scss';
-@import 'components/header';
+@import 'utils/utils.scss';
+
 @import 'components/logo';
+@import 'components/page-header';
 @import 'components/navigation';
 @import 'components/contacts';
+
+@import 'components/order-section';
+@import 'components/quality-section';
+@import 'components/ourskills-section';
+
+@import 'components/btn';
 
 /* Убрать подчеркивание на всех ссылках */
 a {
@@ -34,7 +42,8 @@ li {
   color: $text-color-primary;
 }
 
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
+.page-main {
+  &__title {
+
+  }
 }

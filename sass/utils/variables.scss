@@ -1,57 +1,66 @@
-  //------ Global
+//------ Global
 
-  // Container
-  $container-max-width: 1200px;
+// Container
+$container-max-width: 1200px;
 
-  // Fonts
-    // Text color
-  $text-color-primary: #757575;
-  $text-color-secondary: #212121;
-  $font-size-default: 14px;
-  $font-family: Roboto, "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode",
+// Fonts
+// Text color
+$text-color-primary: #757575;
+$text-color-secondary: #212121;
+$text-color-third: #fff;
+$font-size-default: 14px;
+$font-family: Roboto, "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode",
   Geneva, Verdana, sans-serif;
 
-  // Background colors
-  $background-color-page-primary: #fff;
-  $background-color-page-secondary: #2f303a;
-  // SVG background colors
-  $svg-icon-background-color: #afb1b8;
+// Background colors
+$background-color-page-primary: #fff;
+$background-color-page-secondary: #2f303a;
+// SVG background colors
+$svg-icon-background-color: #afb1b8;
 
+// Button
+$btn-text-color: #fff;
+$btn-background-color: #2196f3;
+$btn-background-color-hover: #2196f3c8;
+// ------
 
-  // Logo
-  $logo-second-text-part-color-header: #000;
-  // Logo footer
-  $logo-second-text-part-color-footer: #fff;
+// Logo
+$logo-second-text-part-color-header: #000;
+// Logo footer
+$logo-second-text-part-color-footer: #fff;
 
-  // Navigation
-  $navigation-border-color: #ececec;
+// Navigation
+$navigation-border-color: #ececec;
 
-  // Order section
-  $order-title-text-color: #fff;
-  $order-btn-text-color: #fff;
-  $order-btn-background-color: #2196f3;
-  $order-btn-background-color-hover: #2196f3c8;
+// Order section
+$order-title-text-color: #fff;
+$order-btn-background-color-span-hover: #0372f1;
 
-  // Team section
-  $team-card-background-color: #fff;
-  $address-text-color-footer: #fff;
-  $background-color-team-section: #f5f4fa;
+// Quality section
+$background-color-icon-wrapper: #f5f4fa;
 
-  // Template section
-  $template-item-background-color: #fff;
-  $template-item-border-color: #eee;
-  $template-item-desc-text-color: rgba(33, 150, 243, 0.9);
+// Ourskills section
+$background-color-ourskills-text: #2f303acc;
 
-  // Filter section
-  $filter-btn-background-color: #fff;
+// Team section
+$team-card-background-color: #fff;
+// $address-text-color-footer: #fff;
+$background-color-team-section: #f5f4fa;
 
-  // Footer
-  $link-footer-color: rgba(255, 255, 255, 0.6);
+// Template section
+$template-item-background-color: #fff;
+$template-item-border-color: #eee;
+$template-item-desc-text-color: rgba(33, 150, 243, 0.9);
 
+// Filter section
+$filter-btn-background-color: #fff;
 
-  /* Animation */
-  $anim-duration: 0.25s;
-  $anim-function: cubic-bezier(0.4, 0, 0.2, 1);
+// Footer
+$link-footer-color: rgba(255, 255, 255, 0.6);
 
+/* Animation */
+$anim-duration: 0.25s;
+$anim-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-  $accent-color: #2196f3;
+// Accent
+$accent-color: #2196f3;

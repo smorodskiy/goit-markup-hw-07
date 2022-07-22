@@ -5,15 +5,25 @@
   padding-bottom: 32px;
 }
 
-.page-header {
-  display: flex;
-  border-bottom: #ececec;
-  border-bottom-style: solid;
-  border-bottom-width: 1px;
+.ourskills-section__container, .quality-section__container {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
-.page-header .container--page-header {
-  display: flex;
-  justify-content: space-between;
+
+.ourskills-section__title {
+  padding-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.is-hidden {
+  visibility: hidden;
+  pointer-events: none;
+  position: absolute;
 }
 
 .logo {
@@ -30,6 +40,17 @@
 }
 .logo__second-text-part {
   color: #000;
+}
+
+.page-header {
+  display: flex;
+  border-bottom: #ececec;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+.page-header__container {
+  display: flex;
+  justify-content: space-between;
 }
 
 .navigation {
@@ -154,6 +175,160 @@
   }
 }
 
+/* Заказ услуг */
+.order-section {
+  max-width: 1600px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: #2f303a;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/bg_hero.jpg);
+}
+.order-section__title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #fff;
+}
+.order-section span {
+  position: absolute;
+  left: calc((var(--n) - 1) * 25%);
+  width: 25%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #0372f1;
+  transform: translateY(100%);
+  transition: 0.25s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: calc((var(--n) - 1) * 0.05s);
+  z-index: -1;
+}
+.order-section span:nth-child(1) {
+  --n: 1;
+}
+.order-section span:nth-child(2) {
+  --n: 2;
+}
+.order-section span:nth-child(3) {
+  --n: 3;
+}
+.order-section span:nth-child(4) {
+  --n: 4;
+}
+
+.btn--order-section {
+  position: relative;
+  display: block;
+  margin: 30px auto 0;
+  overflow: hidden;
+  z-index: 1;
+}
+.btn--order-section:hover {
+  color: #fff;
+}
+.btn--order-section:hover span {
+  transform: translateY(0) scale(2);
+}
+
+/* -- Особенности -- */
+.quality-section__list {
+  display: flex;
+  justify-content: center;
+}
+.quality-section__item:first-child {
+  margin-left: 0;
+}
+.quality-section__item {
+  margin-left: 30px;
+  width: 270px;
+}
+.quality-section__icon-wrapper {
+  height: 120px;
+  display: flex;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+.quality-section__icon {
+  width: 70px;
+  height: 70px;
+}
+.quality-section__item-title {
+  padding-bottom: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+.quality-section__text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.ourskills-section {
+  padding-top: 0;
+}
+.ourskills-section__container {
+  padding-top: 0;
+}
+.ourskills-section__list {
+  display: flex;
+  justify-content: center;
+}
+.ourskills-section__item {
+  position: relative;
+  margin-right: 30px;
+}
+.ourskills-section__item:last-child {
+  margin-right: 0;
+}
+.ourskills-section__picture {
+  position: relative;
+  display: block;
+}
+.ourskills-section__text {
+  position: absolute;
+  bottom: 0;
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: #fff;
+  background: rgba(47, 48, 58, 0.8);
+}
+
+.btn {
+  height: 50px;
+  width: 200px;
+  align-items: center;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  border-radius: 4px;
+  border: 0;
+  background: #2196f3;
+  color: #fff;
+  cursor: pointer;
+}
+
 /* Убрать подчеркивание на всех ссылках */
 a {
   text-decoration: none;
@@ -181,9 +356,4 @@ li {
   font-size: 14px;
   background: #fff;
   color: #757575;
-}
-
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
 }/*# sourceMappingURL=main.css.map */
