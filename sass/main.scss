@@ -1,3 +1,5 @@
+@import 'reset';
+
 @import 'utils/variables.scss';
 @import 'utils/extendes.scss';
 @import 'utils/utils.scss';
@@ -11,22 +13,17 @@
 @import 'components/quality-section';
 @import 'components/ourskills-section';
 @import 'components/team-section';
+@import 'components/best-clients-section';
+@import 'components/footer';
+@import 'components/address';
+@import 'components/subscribe-section';
 
 @import 'components/btn';
 @import 'components/card';
 @import 'components/social-icons';
 
-/* Убрать подчеркивание на всех ссылках */
-a {
-    text-decoration: none;
-    display: inline-block;
-}
+@import 'components/modal-feedback';
 
-/* Глобальные атрибуты для списков */
-li {
-  list-style: none;
-  padding: 0;
-}
 
 .container {
   margin-left: auto;

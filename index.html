@@ -12,7 +12,6 @@
     <!-- <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css"> -->
     <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="./sass/main.css" />
-    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body class="page">
     <!-- Шапка -->
@@ -393,48 +392,49 @@
         </section>
 
         <!-- Постоянные клиенты -->
-        <section class="best-clients-section section">
-          <div class="container">
-            <h2 class="best-clients-title">Постоянные клиенты</h2>
-            <ul class="best-clients-list list">
-              <li class="best-clients-list-border">
-                <a href="#" class="link clients-icon-link">
-                  <svg class="icon icon-logo1">
+        <section class="best-clients-section">
+          <div class="container best-clients-section__container">
+            <h2 class="best-clients-section__title">Постоянные клиенты</h2>
+
+            <ul class="best-clients-section__list">
+              <li class="best-clients-section__item">
+                <a href="#" class="best-clients-section__link">
+                  <svg class="best-clients-section__icon">
                     <use xlink:href="./images/icons.svg#icon-logo1"></use>
                   </svg>
                 </a>
               </li>
-              <li class="best-clients-list-border">
-                <a href="#" class="link clients-icon-link">
-                  <svg class="icon icon-logo2">
+              <li class="best-clients-section__item">
+                <a href="#" class="best-clients-section__link">
+                  <svg class="best-clients-section__icon">
                     <use xlink:href="./images/icons.svg#icon-logo2"></use>
                   </svg>
                 </a>
               </li>
-              <li class="best-clients-list-border">
-                <a href="#" class="link clients-icon-link">
-                  <svg class="icon icon-logo3">
+              <li class="best-clients-section__item">
+                <a href="#" class="best-clients-section__link">
+                  <svg class="best-clients-section__icon">
                     <use xlink:href="./images/icons.svg#icon-logo3"></use>
                   </svg>
                 </a>
               </li>
-              <li class="best-clients-list-border">
-                <a href="#" class="link clients-icon-link">
-                  <svg class="icon icon-logo4">
+              <li class="best-clients-section__item">
+                <a href="#" class="best-clients-section__link">
+                  <svg class="best-clients-section__icon">
                     <use xlink:href="./images/icons.svg#icon-logo4"></use>
                   </svg>
                 </a>
               </li>
-              <li class="best-clients-list-border">
-                <a href="#" class="link clients-icon-link">
-                  <svg class="icon icon-logo5">
+              <li class="best-clients-section__item">
+                <a href="#" class="best-clients-section__link">
+                  <svg class="best-clients-section__icon">
                     <use xlink:href="./images/icons.svg#icon-logo5"></use>
                   </svg>
                 </a>
               </li>
-              <li class="best-clients-list-border">
-                <a href="#" class="link clients-icon-link">
-                  <svg class="icon icon-logo6">
+              <li class="best-clients-section__item">
+                <a href="#" class="best-clients-section__link">
+                  <svg class="best-clients-section__icon">
                     <use xlink:href="./images/icons.svg#icon-logo6"></use>
                   </svg>
                 </a>
@@ -447,144 +447,179 @@
 
     <!-- Подвал -->
     <footer class="page-footer">
-      <div class="container footer-container">
-        <div class="address-box">
-          <a class="link" href="/"
-            ><span class="logo"> Web<span class="lastpart-logo-footer">Studio</span> </span></a
-          >
+      <div class="container page-footer__container">
+        
+        <div class="page-footer__address-wrapper">
+          
+          <!-- Logo -->
+          <div class="logo">
+            <a class="logo__link logo__link--reset-padding" href="/"
+              ><span class="logo__first-text-part">
+                Web<span class="logo__second-text-part logo__second-text-part--white">Studio</span>
+              </span></a
+            >
+          </div>
+
           <!-- Блок с адресом -->
-          <address>
-            <ul class="address-list list">
-              <li class="address-list-item">
+          <address class="address">
+            <ul class="address__list">
+              <li class="address__item">
                 <a
-                  class="link address-text-footer"
+                  class="address__link address__link--white"
                   href="https://www.google.com.ua/maps/@50.4863234,30.4790756,13z?hl=ru"
                   >г. Киев, пр-т Леси Украинки, 26</a
                 >
               </li>
-              <li class="address-list-item">
-                <a class="link contacts-text-footer" href="mailto:info@example.com"
+              <li class="address__item">
+                <a class="address__link" href="mailto:info@example.com"
                   >info@example.com</a
                 >
               </li>
-              <li class="address-list-item">
-                <a class="link contacts-text-footer" href="tel:380991111111">+38 099 111 11 11</a>
+              <li class="address__item">
+                <a class="address__link" href="tel:380991111111">+38 099 111 11 11</a>
               </li>
             </ul>
           </address>
         </div>
-        <div class="social-box">
-          <h2 class="social-box-title">присоединяйтесь</h2>
-          <div class="social-icons-box">
-            <ul class="social-icons-list list">
-              <li>
-                <a class="link social-icon-ellipse" href="http://instagram.com/smorodsky">
-                  <svg class="icon icon-instagram">
+
+        <!-- Social icons -->
+        <div class="page-footer__social-wrapper">
+          <h2 class="page-footer__social-wrapper-title">присоединяйтесь</h2>
+
+          <ul class="social-icons">
+            <li class="social-icons__item">
+              <a class="social-icons__link" href="http://instagram.com/smorodsky">
+                <div class="social-icons__ellipse social-icons__ellipse--grey">
+                  <svg class="social-icons__icon social-icons__icon--white">
                     <use xlink:href="./images/icons.svg#icon-instagram"></use>
                   </svg>
-                </a>
-              </li>
-              <li>
-                <a class="link social-icon-ellipse" href="http://twitter.com/smorodskiy">
-                  <svg class="icon icon-twitter">
+                </div>
+              </a>
+            </li>
+            <li class="social-icons__item">
+              <a class="social-icons__link" href="http://twitter.com/smorodskiy">
+                <div class="social-icons__ellipse social-icons__ellipse--grey">
+                  <svg class="social-icons__icon social-icons__icon--white">
                     <use xlink:href="./images/icons.svg#icon-twitter"></use>
                   </svg>
-                </a>
-              </li>
-              <li>
-                <a class="link social-icon-ellipse" href="http://facebook.com/smorodsky">
-                  <svg class="icon icon-facebook">
+                </div>
+              </a>
+            </li>
+            <li class="social-icons__item">
+              <a class="social-icons__link" href="http://facebook.com/smorodsky">
+                <div class="social-icons__ellipse social-icons__ellipse--grey">
+                  <svg class="social-icons__icon social-icons__icon--white">
                     <use xlink:href="./images/icons.svg#icon-facebook"></use>
                   </svg>
-                </a>
-              </li>
-              <li>
-                <a class="link social-icon-ellipse" href="http://linkedin.com/in/igor-smorodskiy">
-                  <svg class="icon icon-linkedin">
+                </div>
+              </a>
+            </li>
+            <li class="social-icons__item">
+              <a class="social-icons__link" href="http://linkedin.com/in/igor-smorodskiy">
+                <div class="social-icons__ellipse social-icons__ellipse--grey">
+                  <svg class="social-icons__icon social-icons__icon--white">
                     <use xlink:href="./images/icons.svg#icon-linkedin"></use>
                   </svg>
-                </a>
-              </li>
-            </ul>
-          </div>
+                </div>
+              </a>
+            </li>
+
+          
         </div>
-        <div class="subscribe-box">
+
+        <!-- Subscribe -->
+        <div class="subscribe-section">
           <form action="#">
-            <h2 class="subscribe-box-title">Подпишитесь на рассылку</h2>
-            <input class="subscribe-box-input" type="email" name="email" placeholder="E-Mail" />
-            <button class="subscribe-box-btn btn" type="submit">
-              Подписаться<svg class="subscribe-box-btn-icon">
+            <h2 class="subscribe-section__title">Подпишитесь на рассылку</h2>
+            <input class="subscribe-section__input" type="email" name="email" placeholder="E-Mail" />
+            <button class="btn subscribe-section__btn" type="submit">
+              Подписаться<svg class="subscribe-section__icon">
                 <use xlink:href="./images/icons.svg#icon-send"></use>
               </svg>
             </button>
           </form>
         </div>
+
       </div>
     </footer>
 
+    <!-- Modal window -->
     <div class="modal is-hidden" data-modal>
-      <div class="modal-order">
-        <svg class="icon modal-icon-close" data-modal-close>
+      <div class="modal__window">
+        
+        <!-- Close button -->
+        <svg class="modal__close-icon" data-modal-close>
           <use xlink:href="./images/icons.svg#icon-close"></use>
         </svg>
-        <form action="#">
-          <div class="form-contacts" role="group" aria-labelledby="form-contacts-title">
-            <p id="form-contacts-title">Оставьте свои данные, мы вам перезвоним</p>
 
-            <label class="form-contacts-label">
-              <span>Имя</span>
-              <input type="text" id="input-name" name="input-name" autofocus />
-              <svg class="icon-input">
+        <!-- Submit form -->
+        <form class="modal__form" action="#">
+          <div class="modal__form-wrapper" role="group" aria-labelledby="modal__form-title">
+            
+            <!-- Form title -->
+            <p class="modal__form-title">Оставьте свои данные, мы вам перезвоним</p>
+
+            <!-- Name -->
+            <label class="modal__input-box">
+              <span class="modal__input-label">Имя</span>
+              <input class="modal__input" type="text" id="input-name" name="input-name" autofocus />
+              <svg class="modal__input-icon">
                 <use xlink:href="./images/icons.svg#icon-avatar"></use>
               </svg>
             </label>
 
-            <label class="form-contacts-label">
-              <span>Телефон</span>
-              <input type="tel" id="input-tel" name="input-tel" pattern="\+[1-9]{1}[0-9]{3,14}" />
-              <svg class="icon-input">
+            <!-- Tel -->
+            <label class="modal__input-box">
+              <span class="modal__input-label">Телефон</span>
+              <input class="modal__input" type="tel" id="input-tel" name="input-tel" pattern="\+[1-9]{1}[0-9]{3,14}" />
+              <svg class="modal__input-icon">
                 <use xlink:href="./images/icons.svg#icon-mobile"></use>
               </svg>
             </label>
 
-            <label class="form-contacts-label">
-              <span>Почта</span>
-              <input type="email" id="input-email" name="input-email" />
-              <svg class="icon-input">
+            <!-- Email -->
+            <label class="modal__input-box">
+              <span class="modal__input-label">Почта</span>
+              <input class="modal__input" type="email" id="input-email" name="input-email" />
+              <svg class="modal__input-icon">
                 <use xlink:href="./images/icons.svg#icon-email"></use>
               </svg>
             </label>
 
-            <label class="form-contacts-label">
-              <span>Комментарий</span>
-              <textarea
-                name="feedback-comment"
-                id="textarea-comments"
+            <!-- Comment -->
+            <label class="modal__input-box">
+              <span class="modal__input-label">Комментарий</span>
+              <textarea class="modal__comment-area"
+                name="feedback-comment"                
                 cols="30"
                 rows="10"
                 placeholder="Введите текст"
               ></textarea>
             </label>
 
-            <label id="agree-policy-label">
-              <input type="checkbox" name="agree-policy" class="agree-policy-input hidden" />
+            <!-- Checkbox -->
+            <label class="modal__checkbox-box">
+              <input class="modal__checkbox-native" type="checkbox" name="agree-policy"/>
 
-              <span class="icon-policy">
-                <svg class="icon-check" data-modal-close>
+              <!-- Checkbox icon -->
+              <span class="modal__checkbox-icon-custom">
+                <svg class="modal__checkbox-icon" data-modal-close>
                   <use xlink:href="./images/icons.svg#icon-check"></use>
                 </svg>
               </span>
 
+              <!-- Checkbox text -->
               Соглашаюсь с рассылкой и принимаю
-              <span class="agree-policy-label-txt">Условия договора</span>
+              <a href="#" class="modal__checkbox-agree-contract">Условия договора</a>
             </label>
 
-            <button class="form-contacts-btn btn" type="submit">Отправить</button>
+            <!-- Send button -->
+            <button class="btn modal__btn" type="submit">Отправить</button>
           </div>
         </form>
       </div>
     </div>
-
+    
     <script src="./js/modal.js"></script>
   </body>
 </html>

@@ -30,6 +30,11 @@ $card-background-color: #fff;
 
 // Social icons
 $social-icons-ellipse-background-color: #fff;
+$social-icons-ellipse-background-color-grey: rgba(255, 255, 255, 0.1);
+$social-icons-ellipse-text-color-white: #fff;
+
+// Validation colors
+$invalid-color: #f00;
 
 // ------ Modules
 // Logo
@@ -54,16 +59,38 @@ $background-color-ourskills-text: #2f303acc;
 // $address-text-color-footer: #fff;
 $background-color-team-section: #f5f4fa;
 
+// Best Clients section
+$best-cliets-section-primary-color: #afb1b8;
+
 // Template section
 $template-item-background-color: #fff;
 $template-item-border-color: #eee;
 $template-item-desc-text-color: rgba(33, 150, 243, 0.9);
 
+// Footer
+$address-link-color: rgba(255, 255, 255, 0.6);
+$address-link-color-secondary: #fff;
+$subscribe-section-input-color: rgba(255, 255, 255, 0.6);
+$subscribe-section-input-border-color: rgba(255, 255, 255, 0.3);
+$subscribe-section-icon-color: #fff;
+
+// Modal-order
+$modal-bg-color: rgba(0, 0, 0, 0.2);
+$modal-input-border-color: rgba(33, 33, 33, 0.2);
+$modal-comment-area-border-color: rgba(33, 33, 33, 0.2);
+$modal-comment-area-placeholder-color: rgba(117, 117, 117, 0.5);
+$modal-checkbox-outline-color: rgba(255, 99, 71, 0.5);
+$checkbox-icon-custom-border-color: #000;
+$modal-policy-icon-h: 15px;
+$modal-policy-icon-w: 16px;
+
+// ---------------------------------- Portfolio
+
 // Filter section
 $filter-btn-background-color: #fff;
 
-// Footer
-$link-footer-color: rgba(255, 255, 255, 0.6);
+// ---------------------------------- Portfolio
+
 
 /* Animation */
 $anim-duration: 0.25s;

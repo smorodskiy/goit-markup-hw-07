@@ -17,3 +17,17 @@
   letter-spacing: 0.03em;
   color: $text-color-secondary;
 }
+
+%footer-section-title {
+  margin-bottom: 20px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: $text-color-third;
+}

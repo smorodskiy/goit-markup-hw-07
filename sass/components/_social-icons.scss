@@ -24,6 +24,10 @@
     transition: background-color, $anim-duration $anim-function;
   }
 
+  &__ellipse--grey {
+    background-color: $social-icons-ellipse-background-color-grey;
+  }
+
   &__icon {
     width: 20px;
     height: 20px;
@@ -31,6 +35,11 @@
     fill: $svg-icon-background-color;
     transition: fill, $anim-duration $anim-function;
   }
+
+  &__icon--white {
+    fill: $social-icons-ellipse-text-color-white;
+  }
+
 }
 
 // Hover
