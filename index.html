@@ -17,11 +17,8 @@
   <body class="page">
     <!-- Шапка -->
     <header class="page-header">
-      
       <div class="container page-header__container">
-
         <nav class="navigation">
-
           <div class="logo">
             <a class="logo__link" href="/"
               ><span class="logo__first-text-part">
@@ -32,16 +29,21 @@
 
           <ul class="navigation__pages">
             <li class="navigation__item">
-              <a class="navigation__link navigation__link--active-page" href="./index.html">Студия</a>
+              <a class="navigation__link navigation__link--active-page" href="./index.html"
+                >Студия</a
+              >
             </li>
             <li class="navigation__item">
-              <a class="navigation__link navigation__link--hover" href="./portfolio.html">Портфолио</a>
+              <a class="navigation__link navigation__link--hover" href="./portfolio.html"
+                >Портфолио</a
+              >
             </li>
             <li class="navigation__item">
-              <a class="navigation__link navigation__link--hover" href="./contacts.html">Контакты</a>
+              <a class="navigation__link navigation__link--hover" href="./contacts.html"
+                >Контакты</a
+              >
             </li>
           </ul>
-
         </nav>
 
         <ul class="contacts">
@@ -62,7 +64,6 @@
             </a>
           </li>
         </ul>
-        
       </div>
     </header>
 
@@ -81,13 +82,10 @@
         <!-- </div> -->
         <!-- Особенности -->
         <section class="quality-section">
-
           <div class="container quality-section__container">
-
             <h2 class="quality-section__title is-hidden">Особенности</h2>
 
             <ul class="quality-section__list">
-
               <li class="quality-section__item">
                 <div class="quality-section__icon-wrapper">
                   <svg class="quality-section__icon">
@@ -137,16 +135,13 @@
                   Значимость этих проблем настолько очевидна, что реализация плановых заданий.
                 </p>
               </li>
-
             </ul>
           </div>
-
         </section>
 
         <!-- Чем мы занимаемся -->
         <section class="ourskills-section">
           <div class="container ourskills-section__container">
-            
             <h2 class="ourskills-section__title">Чем мы занимаемся</h2>
 
             <ul class="ourskills-section__list">
@@ -183,47 +178,53 @@
 
         <!-- Наша команда -->
         <section class="team-section">
-          <div class="container">
-            <h2 class="team-title">Наша команда</h2>
-            <ul class="team-list list">
-              <li class="team-card">
-                <img src="./images/team1.jpg" alt="Фотография сотрудника 1" width="270" />
-                <div class="team-bottom-wrapper">
-                  <h3 class="team-name">Игорь Демьяненко</h3>
-                  <p class="team-content">Product Designer</p>
+          <div class="container team-section__container">
+            <h2 class="team-section__title">Наша команда</h2>
 
-                  <ul class="team-icons-list list">
-                    <li>
-                      <a class="link" href="http://instagram.com/smorodsky">
-                        <div class="team-icon-ellipse">
-                          <svg class="icon icon-instagram">
+            <ul class="team-section__list">
+              <li class="card">
+                <img
+                  class="card__picture"
+                  src="./images/team1.jpg"
+                  alt="Фотография сотрудника 1"
+                  width="270"
+                />
+                <div class="card__footer">
+                  <h3 class="card__name">Игорь Демьяненко</h3>
+                  <p class="card__text">Product Designer</p>
+
+                  <ul class="social-icons">
+                    <li class="social-icons__item">
+                      <a class="social-icons__link" href="http://instagram.com/smorodsky">
+                        <div class="social-icons__ellipse">
+                          <svg class="social-icons__icon">
                             <use xlink:href="./images/icons.svg#icon-instagram"></use>
                           </svg>
                         </div>
                       </a>
                     </li>
-                    <li>
-                      <a class="link" href="http://twitter.com/smorodskiy">
-                        <div class="team-icon-ellipse">
-                          <svg class="icon icon-twitter">
+                    <li class="social-icons__item">
+                      <a class="social-icons__link" href="http://twitter.com/smorodskiy">
+                        <div class="social-icons__ellipse">
+                          <svg class="social-icons__icon">
                             <use xlink:href="./images/icons.svg#icon-twitter"></use>
                           </svg>
                         </div>
                       </a>
                     </li>
-                    <li>
-                      <a class="link" href="http://facebook.com/smorodsky">
-                        <div class="team-icon-ellipse">
-                          <svg class="icon icon-facebook">
+                    <li class="social-icons__item">
+                      <a class="social-icons__link" href="http://facebook.com/smorodsky">
+                        <div class="social-icons__ellipse">
+                          <svg class="social-icons__icon">
                             <use xlink:href="./images/icons.svg#icon-facebook"></use>
                           </svg>
                         </div>
                       </a>
                     </li>
-                    <li>
-                      <a class="link" href="http://linkedin.com/in/igor-smorodskiy">
-                        <div class="team-icon-ellipse">
-                          <svg class="icon icon-linkedin">
+                    <li class="social-icons__item">
+                      <a class="social-icons__link" href="http://linkedin.com/in/igor-smorodskiy">
+                        <div class="social-icons__ellipse">
+                          <svg class="social-icons__icon">
                             <use xlink:href="./images/icons.svg#icon-linkedin"></use>
                           </svg>
                         </div>
@@ -232,44 +233,50 @@
                   </ul>
                 </div>
               </li>
-              <li class="team-card">
-                <img src="./images/team2.jpg" alt="Фотография сотрудника 2" width="270" />
-                <div class="team-bottom-wrapper">
-                  <h3 class="team-name">Ольга Репина</h3>
-                  <p class="team-content">Frontend Developer</p>
 
-                  <ul class="team-icons-list list">
-                    <li>
-                      <a class="link" href="http://instagram.com/smorodsky">
-                        <div class="team-icon-ellipse">
-                          <svg class="icon icon-instagram">
+              <li class="card">
+                <img
+                  class="card_picture"
+                  src="./images/team2.jpg"
+                  alt="Фотография сотрудника 2"
+                  width="270"
+                />
+                <div class="card__footer">
+                  <h3 class="card__name">Ольга Репина</h3>
+                  <p class="card__text">Frontend Developer</p>
+
+                  <ul class="social-icons">
+                    <li class="social-icons__item">
+                      <a class="social-icons__link" href="http://instagram.com/smorodsky">
+                        <div class="social-icons__ellipse">
+                          <svg class="social-icons__icon">
                             <use xlink:href="./images/icons.svg#icon-instagram"></use>
                           </svg>
                         </div>
                       </a>
                     </li>
-                    <li>
-                      <a class="link" href="http://twitter.com/smorodskiy">
-                        <div class="team-icon-ellipse">
-                          <svg class="icon icon-twitter">
+                    <li class="social-icons__item">
+                      <a class="social-icons__link" href="http://twitter.com/smorodskiy">
+                        <div class="social-icons__ellipse">
+                          <svg class="social-icons__icon">
                             <use xlink:href="./images/icons.svg#icon-twitter"></use>
                           </svg>
                         </div>
                       </a>
                     </li>
-                    <li>
-                      <a class="link" href="http://facebook.com/smorodsky">
-                        <div class="team-icon-ellipse">
-                          <svg class="icon icon-facebook">
+                    <li class="social-icons__item">
+                      <a class="social-icons__link" href="http://facebook.com/smorodsky">
+                        <div class="social-icons__ellipse">
+                          <svg class="social-icons__icon">
                             <use xlink:href="./images/icons.svg#icon-facebook"></use>
                           </svg>
                         </div>
                       </a>
                     </li>
-                    <li>
-                      <a class="link" href="http://linkedin.com/in/igor-smorodskiy">
-                        <div class="team-icon-ellipse">
-                          <svg class="icon icon-linkedin">
+                    <li class="social-icons__item">
+                      <a class="social-icons__link" href="http://linkedin.com/in/igor-smorodskiy">
+                        <div class="social-icons__ellipse">
+                          <svg class="social-icons__icon">
                             <use xlink:href="./images/icons.svg#icon-linkedin"></use>
                           </svg>
                         </div>
@@ -278,44 +285,50 @@
                   </ul>
                 </div>
               </li>
-              <li class="team-card">
-                <img src="./images/team3.jpg" alt="Фотография сотрудника 3" width="270" />
-                <div class="team-bottom-wrapper">
-                  <h3 class="team-name">Николай Тарасов</h3>
-                  <p class="team-content">Marketing</p>
 
-                  <ul class="team-icons-list list">
-                    <li>
-                      <a class="link" href="http://instagram.com/smorodsky">
-                        <div class="team-icon-ellipse">
-                          <svg class="icon icon-instagram">
+              <li class="card">
+                <img
+                  class="card_picture"
+                  src="./images/team3.jpg"
+                  alt="Фотография сотрудника 3"
+                  width="270"
+                />
+                <div class="card__footer">
+                  <h3 class="card__name">Николай Тарасов</h3>
+                  <p class="card__text">Marketing</p>
+
+                  <ul class="social-icons">
+                    <li class="social-icons__item">
+                      <a class="social-icons__link" href="http://instagram.com/smorodsky">
+                        <div class="social-icons__ellipse">
+                          <svg class="social-icons__icon">
                             <use xlink:href="./images/icons.svg#icon-instagram"></use>
                           </svg>
                         </div>
                       </a>
                     </li>
-                    <li>
-                      <a class="link" href="http://twitter.com/smorodskiy">
-                        <div class="team-icon-ellipse">
-                          <svg class="icon icon-twitter">
+                    <li class="social-icons__item">
+                      <a class="social-icons__link" href="http://twitter.com/smorodskiy">
+                        <div class="social-icons__ellipse">
+                          <svg class="social-icons__icon">
                             <use xlink:href="./images/icons.svg#icon-twitter"></use>
                           </svg>
                         </div>
                       </a>
                     </li>
-                    <li>
-                      <a class="link" href="http://facebook.com/smorodsky">
-                        <div class="team-icon-ellipse">
-                          <svg class="icon icon-facebook">
+                    <li class="social-icons__item">
+                      <a class="social-icons__link" href="http://facebook.com/smorodsky">
+                        <div class="social-icons__ellipse">
+                          <svg class="social-icons__icon">
                             <use xlink:href="./images/icons.svg#icon-facebook"></use>
                           </svg>
                         </div>
                       </a>
                     </li>
-                    <li>
-                      <a class="link" href="http://linkedin.com/in/igor-smorodskiy">
-                        <div class="team-icon-ellipse">
-                          <svg class="icon icon-linkedin">
+                    <li class="social-icons__item">
+                      <a class="social-icons__link" href="http://linkedin.com/in/igor-smorodskiy">
+                        <div class="social-icons__ellipse">
+                          <svg class="social-icons__icon">
                             <use xlink:href="./images/icons.svg#icon-linkedin"></use>
                           </svg>
                         </div>
@@ -324,44 +337,49 @@
                   </ul>
                 </div>
               </li>
-              <li class="team-card">
-                <img src="./images/team4.jpg" alt="Фотография сотрудника 4" width="270" />
-                <div class="team-bottom-wrapper">
-                  <h3 class="team-name">Михаил Ермаков</h3>
-                  <p class="team-content">UI Designer</p>
+              <li class="card">
+                <img
+                  class="card_picture"
+                  src="./images/team4.jpg"
+                  alt="Фотография сотрудника 4"
+                  width="270"
+                />
+                <div class="card__footer">
+                  <h3 class="card__name">Михаил Ермаков</h3>
+                  <p class="card__text">UI Designer</p>
 
-                  <ul class="team-icons-list list">
-                    <li>
-                      <a class="link" href="http://instagram.com/smorodsky">
-                        <div class="team-icon-ellipse">
-                          <svg class="icon icon-instagram">
+                  <ul class="social-icons">
+                    <li class="social-icons__item">
+                      <a class="social-icons__link" href="http://instagram.com/smorodsky">
+                        <div class="social-icons__ellipse">
+                          <svg class="social-icons__icon">
                             <use xlink:href="./images/icons.svg#icon-instagram"></use>
                           </svg>
                         </div>
                       </a>
                     </li>
-                    <li>
-                      <a class="link" href="http://twitter.com/smorodskiy">
-                        <div class="team-icon-ellipse">
-                          <svg class="icon icon-twitter">
+                    <li class="social-icons__item">
+                      <a class="social-icons__link" href="http://twitter.com/smorodskiy">
+                        <div class="social-icons__ellipse">
+                          <svg class="social-icons__icon">
                             <use xlink:href="./images/icons.svg#icon-twitter"></use>
                           </svg>
                         </div>
                       </a>
                     </li>
-                    <li>
-                      <a class="link" href="http://facebook.com/smorodsky">
-                        <div class="team-icon-ellipse">
-                          <svg class="icon icon-facebook">
+                    <li class="social-icons__item">
+                      <a class="social-icons__link" href="http://facebook.com/smorodsky">
+                        <div class="social-icons__ellipse">
+                          <svg class="social-icons__icon">
                             <use xlink:href="./images/icons.svg#icon-facebook"></use>
                           </svg>
                         </div>
                       </a>
                     </li>
-                    <li>
-                      <a class="link" href="http://linkedin.com/in/igor-smorodskiy">
-                        <div class="team-icon-ellipse">
-                          <svg class="icon icon-linkedin">
+                    <li class="social-icons__item">
+                      <a class="social-icons__link" href="http://linkedin.com/in/igor-smorodskiy">
+                        <div class="social-icons__ellipse">
+                          <svg class="social-icons__icon">
                             <use xlink:href="./images/icons.svg#icon-linkedin"></use>
                           </svg>
                         </div>

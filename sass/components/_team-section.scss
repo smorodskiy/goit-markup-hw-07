@@ -1,100 +1,25 @@
 /* ---- Наша команда ------ */
-.team-card {
-    background: var(--team-card-background-color);
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-      0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;
+.team-section {
+  background-color: $background-color-team-section;
+
+  &__container {
+    @extend %top-bottom-shifting-section;
   }
-  
-  .team-title {
-    margin-bottom: 50px;
-    color: var(--title-text-color);
+
+  &__title {
+    @extend %title-section;
+    color: $text-color-secondary;
   }
-  
-  .team-section {
-    background-color: var(--background-color-secondary);
-  }
-  
-  .team-list {
+
+  &__list {
     display: flex;
     justify-content: space-between;
-  
+
     font-weight: 500;
     font-size: 16px;
     line-height: 1.187;
     text-align: center;
     letter-spacing: 0.03em;
   }
-  
-  .team-list img {
-    display: block;
-    box-sizing: border-box;
-    max-width: 100%;
-  }
-  
-  .team-name {
-    margin-bottom: 10px;
-    font-size: 16px;
-    color: var(--title-text-color);
-  }
-  
-  .social-icons-list,
-  .team-icons-list {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .social-icons-list .icon,
-  .team-icons-list .icon {
-    width: 20px;
-    height: 20px;
-  }
-  
-  .team-icons-list li:first-child {
-    margin-left: 0;
-  }
-  
-  .team-icons-list li {
-    margin-left: 10px;
-  }
-  
-  .social-icon-ellipse,
-  .team-icon-ellipse {
-    width: 44px;
-    height: 44px;
-  
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  
-    border-radius: 50%;
-  }
-  
-  .team-icon-ellipse {
-    background-color: #fff;
-    transition: background-color, var(--duration) var(--function);
-  }
-  
-  .social-icon-ellipse:hover,
-  .team-icon-ellipse:hover {
-    background-color: var(--accent-color);
-  }
-  
-  .social-icon-ellipse:hover .icon,
-  .team-icon-ellipse:hover .icon {
-    fill: #fff;
-  }
-  
-  .team-list .icon {
-    fill: var(--svg-icons-background);
-    transition: fill, var(--duration) var(--function);
-  }
-  
-  .team-content {
-    margin-bottom: 16px;
-    font-weight: 400;
-  }
-  
-  .team-bottom-wrapper {
-    padding: 30px;
-  }
+}
+

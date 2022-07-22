@@ -15,15 +15,23 @@ $font-family: Roboto, "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lu
 // Background colors
 $background-color-page-primary: #fff;
 $background-color-page-secondary: #2f303a;
+
 // SVG background colors
 $svg-icon-background-color: #afb1b8;
 
+// ------ Components
 // Button
 $btn-text-color: #fff;
 $btn-background-color: #2196f3;
 $btn-background-color-hover: #2196f3c8;
-// ------
 
+// Card
+$card-background-color: #fff;
+
+// Social icons
+$social-icons-ellipse-background-color: #fff;
+
+// ------ Modules
 // Logo
 $logo-second-text-part-color-header: #000;
 // Logo footer
@@ -43,7 +51,6 @@ $background-color-icon-wrapper: #f5f4fa;
 $background-color-ourskills-text: #2f303acc;
 
 // Team section
-$team-card-background-color: #fff;
 // $address-text-color-footer: #fff;
 $background-color-team-section: #f5f4fa;
 

@@ -5,12 +5,12 @@
   padding-bottom: 32px;
 }
 
-.ourskills-section__container, .quality-section__container {
+.team-section__container, .ourskills-section__container, .quality-section__container {
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
-.ourskills-section__title {
+.team-section__title, .ourskills-section__title {
   padding-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
@@ -314,6 +314,23 @@
   background: rgba(47, 48, 58, 0.8);
 }
 
+/* ---- Наша команда ------ */
+.team-section {
+  background-color: #f5f4fa;
+}
+.team-section__title {
+  color: #212121;
+}
+.team-section__list {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.187;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
 .btn {
   height: 50px;
   width: 200px;
@@ -327,6 +344,63 @@
   background: #2196f3;
   color: #fff;
   cursor: pointer;
+}
+
+.card {
+  background: #fff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.card__picture {
+  display: block;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.card__footer {
+  padding: 30px;
+}
+.card__name {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #212121;
+}
+.card__text {
+  margin-bottom: 16px;
+  font-weight: 400;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+}
+.social-icons__item:first-child {
+  margin-left: 0;
+}
+.social-icons__item {
+  margin-left: 10px;
+}
+.social-icons__ellipse {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: #fff;
+  transition: background-color, 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.social-icons__icon {
+  width: 20px;
+  height: 20px;
+  fill: #afb1b8;
+  transition: fill, 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-icons__ellipse:hover {
+  background-color: #2196f3;
+}
+.social-icons__ellipse:hover .social-icons__icon {
+  fill: #fff;
 }
 
 /* Убрать подчеркивание на всех ссылках */
