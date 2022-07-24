@@ -4,26 +4,30 @@
 @import 'utils/extendes.scss';
 @import 'utils/utils.scss';
 
+// Common comps
 @import 'components/logo';
 @import 'components/page-header';
 @import 'components/navigation';
 @import 'components/contacts';
-
-@import 'components/order-section';
-@import 'components/quality-section';
-@import 'components/ourskills-section';
-@import 'components/team-section';
-@import 'components/best-clients-section';
 @import 'components/footer';
 @import 'components/address';
 @import 'components/subscribe-section';
-
 @import 'components/btn';
-@import 'components/card';
 @import 'components/social-icons';
 
-@import 'components/modal-feedback';
+// Index
+@import 'pages/index/components/order-section';
+@import 'pages/index/components/quality-section';
+@import 'pages/index/components/ourskills-section';
+@import 'pages/index/components/team-section';
+@import 'pages/index/components/best-clients-section';
+@import 'pages/index/components/modal-feedback';
+@import 'pages/index/components/card';
 
+// Portfolio
+@import 'pages/portfolio/components/portfolio-section';
+@import 'pages/portfolio/components/filter';
+@import 'pages/portfolio/components/templations';
 
 .container {
   margin-left: auto;
@@ -40,10 +44,4 @@
   font-size: $font-size-default;
   background: $background-color-page-primary;
   color: $text-color-primary;
-}
-
-.page-main {
-  &__title {
-
-  }
 }

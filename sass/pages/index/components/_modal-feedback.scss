@@ -44,8 +44,8 @@
 
   &__form-title {
     margin-bottom: 12px;
-    font-weight: 700;
-    font-size: 20px;
+    font-weight: $font-weight-2;
+    font-size: $modal-form-title-text-size;
     line-height: 1.15;
     text-align: center;
     letter-spacing: 0.03em;
@@ -54,7 +54,7 @@
 
   &__input-box {
     position: relative;
-    font-size: 12px;
+    font-size: $font-size-0;
     line-height: 1.17;
     letter-spacing: 0.01em;
   }
@@ -91,7 +91,7 @@
     resize: none;
     border: 1px solid $modal-comment-area-border-color;
     border-radius: 4px;
-    font-size: 14px;
+    font-size: $font-size-default;
     line-height: 1.14;
     letter-spacing: 0.01em;
     box-sizing: border-box;
@@ -104,10 +104,8 @@
     align-items: center;
     gap: 8px;
     margin-top: 20px;
-    // font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    // color: $text-color-primary;
   }
 
   &__checkbox-native {

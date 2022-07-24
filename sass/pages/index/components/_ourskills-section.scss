@@ -33,20 +33,15 @@
   &__text {
     position: absolute;
     bottom: 0;
-
     height: 70px;
     width: 100%;
-
     display: flex;
     justify-content: center;
     align-items: center;
-
-    font-weight: 700;
-    // font-size: 14px;
+    font-weight: $font-weight-2;
     line-height: 1.14;
     text-transform: uppercase;
     color: $text-color-third;
-
     background: $background-color-ourskills-text;
   }
 }

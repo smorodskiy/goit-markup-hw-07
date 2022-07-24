@@ -1,14 +1,23 @@
-//------ Global
+//------------------------------------------------ Global
 
 // Container
 $container-max-width: 1200px;
 
 // Fonts
+$font-size-0: 12px;
+$font-size-default: 14px;
+$font-size-2: 16px;
+$font-size-3: 18px;
+
+$font-weight-default: 400;
+$font-weight-1: 500;
+$font-weight-2: 700;
+$font-weight-3: 900;
+
 // Text color
 $text-color-primary: #757575;
 $text-color-secondary: #212121;
 $text-color-third: #fff;
-$font-size-default: 14px;
 $font-family: Roboto, "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode",
   Geneva, Verdana, sans-serif;
 
@@ -19,7 +28,7 @@ $background-color-page-secondary: #2f303a;
 // SVG background colors
 $svg-icon-background-color: #afb1b8;
 
-// ------ Components
+// ------------------------------------------------ Components
 // Button
 $btn-text-color: #fff;
 $btn-background-color: #2196f3;
@@ -36,9 +45,11 @@ $social-icons-ellipse-text-color-white: #fff;
 // Validation colors
 $invalid-color: #f00;
 
-// ------ Modules
+// ------------------------------------------------ Modules
 // Logo
 $logo-second-text-part-color-header: #000;
+$logo-font-size: 26px;
+
 // Logo footer
 $logo-second-text-part-color-footer: #fff;
 
@@ -62,11 +73,6 @@ $background-color-team-section: #f5f4fa;
 // Best Clients section
 $best-cliets-section-primary-color: #afb1b8;
 
-// Template section
-$template-item-background-color: #fff;
-$template-item-border-color: #eee;
-$template-item-desc-text-color: rgba(33, 150, 243, 0.9);
-
 // Footer
 $address-link-color: rgba(255, 255, 255, 0.6);
 $address-link-color-secondary: #fff;
@@ -75,6 +81,7 @@ $subscribe-section-input-border-color: rgba(255, 255, 255, 0.3);
 $subscribe-section-icon-color: #fff;
 
 // Modal-order
+$modal-form-title-text-size: 20px;
 $modal-bg-color: rgba(0, 0, 0, 0.2);
 $modal-input-border-color: rgba(33, 33, 33, 0.2);
 $modal-comment-area-border-color: rgba(33, 33, 33, 0.2);
@@ -84,12 +91,17 @@ $checkbox-icon-custom-border-color: #000;
 $modal-policy-icon-h: 15px;
 $modal-policy-icon-w: 16px;
 
-// ---------------------------------- Portfolio
-
+// ------------------------------------------------ Portfolio //////////
 // Filter section
-$filter-btn-background-color: #fff;
+$filter-btn-text-color: #000;
+$filter-btn-text-color-active: #fff;
+$filter-btn-bg-color: #f5f4fa;
 
-// ---------------------------------- Portfolio
+// Templations section
+$template-item-background-color: #fff;
+$template-item-border-color: #eee;
+$template-item-desc-text-color: rgba(33, 150, 243, 0.9);
+// ------------------------------------------------ Portfolio //////////
 
 
 /* Animation */

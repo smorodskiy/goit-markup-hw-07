@@ -41,8 +41,8 @@
 
   &__item-title {
     padding-bottom: 10px;
-    font-weight: 700;
-    font-size: 14px;
+    font-weight: $font-weight-2;
+    font-size: $font-size-default;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -50,7 +50,7 @@
   }
 
   &__text {
-    font-size: 14px;
+    font-size: $font-size-default;
     line-height: 1.71;
     letter-spacing: 0.03em;
   }

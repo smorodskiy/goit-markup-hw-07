@@ -10,7 +10,7 @@
 
 %title-section {
   padding-bottom: 50px;
-  font-weight: 700;
+  font-weight: $font-weight-2;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -23,8 +23,8 @@
 
   font-family: "Roboto";
   font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
+  font-weight: $font-weight-2;
+  font-size: $font-size-default;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
