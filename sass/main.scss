@@ -1,20 +1,22 @@
-@import 'base/reset';
-@import 'base/common';
-
 @import 'utils/variables.scss';
 @import 'utils/extendes.scss';
 @import 'utils/utils.scss';
 
+@import 'base/common';
+@import 'base/reset';
+
 // Common comps
 @import 'components/logo';
-@import 'components/page-header';
 @import 'components/navigation';
 @import 'components/contacts';
-@import 'components/footer';
 @import 'components/address';
 @import 'components/subscribe-section';
 @import 'components/btn';
 @import 'components/social-icons';
+
+// Layouts
+@import 'layouts/page-header';
+@import 'layouts/footer';
 
 // Index
 @import 'pages/index/components/order-section';

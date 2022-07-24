@@ -1,34 +1,4 @@
 @charset "UTF-8";
-/* Убрать подчеркивание на всех ссылках */
-a {
-  text-decoration: none;
-}
-
-img {
-  display: block;
-}
-
-/* Глобальные атрибуты для списков */
-li {
-  list-style: none;
-  padding: 0;
-}
-
-/* Убрать подчеркивание на всех ссылках */
-a {
-  text-decoration: none;
-}
-
-img {
-  display: block;
-}
-
-/* Глобальные атрибуты для списков */
-li {
-  list-style: none;
-  padding: 0;
-}
-
 /* Animation */
 .contacts__link, .navigation__link {
   padding-top: 32px;
@@ -50,7 +20,7 @@ li {
   color: #212121;
 }
 
-.subscribe-section__title, .page-footer__social-wrapper-title {
+.page-footer__social-wrapper-title, .subscribe-section__title {
   margin-bottom: 20px;
   font-family: "Roboto";
   font-style: normal;
@@ -67,6 +37,38 @@ li {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
+}
+
+/* Убрать подчеркивание на всех ссылках */
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+}
+
+/* Глобальные атрибуты для списков */
+li {
+  list-style: none;
+  padding: 0;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  max-width: 1200px;
+  width: 100%;
+}
+
+/* Общий стиль для странцы */
+.page {
+  font-family: Roboto, "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  background: #fff;
+  color: #757575;
 }
 
 .logo {
@@ -90,17 +92,6 @@ li {
 }
 .logo__second-text-part--white {
   color: #fff;
-}
-
-.page-header {
-  display: flex;
-  border-bottom: #ececec;
-  border-bottom-style: solid;
-  border-bottom-width: 1px;
-}
-.page-header__container {
-  display: flex;
-  justify-content: space-between;
 }
 
 .navigation {
@@ -225,18 +216,6 @@ li {
   }
 }
 
-/*  ----------  Футер  --------------  */
-.page-footer {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  background-color: #2f303a;
-}
-.page-footer__container {
-  display: flex;
-}
-.page-footer__social-wrapper {
-  margin-left: 70px;
-}
 .address__list {
   font-style: normal;
   line-height: 1.71;
@@ -353,6 +332,29 @@ li {
   fill: #fff;
 }
 
+.page-header {
+  display: flex;
+  border-bottom: #ececec;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+.page-header__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+/*  ----------  Футер  --------------  */
+.page-footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #2f303a;
+}
+.page-footer__container {
+  display: flex;
+}
+.page-footer__social-wrapper {
+  margin-left: 70px;
+}
 /* Заказ услуг */
 .order-section {
   max-width: 1600px;
