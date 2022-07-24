@@ -14,6 +14,21 @@ li {
   padding: 0;
 }
 
+/* Убрать подчеркивание на всех ссылках */
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+}
+
+/* Глобальные атрибуты для списков */
+li {
+  list-style: none;
+  padding: 0;
+}
+
 /* Animation */
 .contacts__link, .navigation__link {
   padding-top: 32px;
@@ -912,21 +927,4 @@ li {
 .template-section__link:hover .template-section__text-float {
   top: 0;
   display: block;
-}
-
-.container {
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 0;
-  margin-bottom: 0;
-  max-width: 1200px;
-  width: 100%;
-}
-
-/* Общий стиль для странцы */
-.page {
-  font-family: Roboto, "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  font-size: 14px;
-  background: #fff;
-  color: #757575;
 }/*# sourceMappingURL=main.css.map */
