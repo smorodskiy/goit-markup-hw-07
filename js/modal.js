@@ -12,8 +12,8 @@
   function toggleModal() {
     refs.modal.classList.toggle("is-hidden");
     
-    refs.inputName.focus();
-    console.log(refs.inputName);
+    // refs.inputName.focus();
+    // console.log(refs.inputName);
   }
 
   refs.modal.addEventListener("click", (e) => {
