@@ -14,10 +14,13 @@
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body class="page">
+    
     <!-- Шапка -->
     <header class="page-header">
       <div class="container page-header__container">
         <nav class="navigation">
+          
+          <!-- Logo -->
           <div class="logo">
             <a class="logo__link" href="/"
               ><span class="logo__first-text-part">
@@ -26,6 +29,7 @@
             >
           </div>
 
+          <!-- Navigation -->
           <ul class="navigation__pages">
             <li class="navigation__item">
               <a class="navigation__link navigation__link--active-page" href="./index.html"
@@ -45,6 +49,7 @@
           </ul>
         </nav>
 
+        <!-- Contacts -->
         <ul class="contacts">
           <li class="contacts__item">
             <a class="contacts__link" href="mailto:info@example.com">
@@ -68,17 +73,18 @@
 
     <main>
       <section class="page-main">
+        
+        <!-- Main title -->
         <h1 class="page-main__title is-hidden">Веб-студия по разработке сайтов</h1>
 
         <!-- Заказать услугу -->
-        <!-- <div class="container"> -->
         <section class="order-section">
           <h2 class="order-section__title">Эффективные решения<br />для вашего бизнеса</h2>
           <button class="btn btn--order-section" type="button" data-modal-open>
             Заказать услугу <span></span><span></span><span></span><span></span>
           </button>
         </section>
-        <!-- </div> -->
+
         <!-- Особенности -->
         <section class="quality-section">
           <div class="container quality-section__container">
@@ -178,8 +184,11 @@
         <!-- Наша команда -->
         <section class="team-section">
           <div class="container team-section__container">
+            
+            <!-- Team title -->
             <h2 class="team-section__title">Наша команда</h2>
 
+            <!-- Team list -->
             <ul class="team-section__list">
               <li class="card">
                 <img
@@ -346,7 +355,8 @@
                 <div class="card__footer">
                   <h3 class="card__name">Михаил Ермаков</h3>
                   <p class="card__text">UI Designer</p>
-
+                  
+                  <!-- Social icons -->
                   <ul class="social-icons">
                     <li class="social-icons__item">
                       <a class="social-icons__link" href="http://instagram.com/smorodsky">
@@ -521,7 +531,7 @@
             </li>
           </ul>
         </div>
-
+        
         <!-- Subscribe -->
         <div class="subscribe-section">
           <form action="#">
@@ -626,6 +636,7 @@
       </div>
     </div>
 
+    <!-- Modal window for orders -->
     <script src="./js/modal.js"></script>
   </body>
 </html>
