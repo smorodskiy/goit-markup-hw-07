@@ -235,7 +235,7 @@
 
               <li class="card">
                 <img
-                  class="card_picture"
+                  class="card__picture"
                   src="./images/team2.jpg"
                   alt="Фотография сотрудника 2"
                   width="270"
@@ -287,7 +287,7 @@
 
               <li class="card">
                 <img
-                  class="card_picture"
+                  class="card__picture"
                   src="./images/team3.jpg"
                   alt="Фотография сотрудника 3"
                   width="270"
@@ -338,7 +338,7 @@
               </li>
               <li class="card">
                 <img
-                  class="card_picture"
+                  class="card__picture"
                   src="./images/team4.jpg"
                   alt="Фотография сотрудника 4"
                   width="270"
@@ -448,9 +448,7 @@
     <!-- Подвал -->
     <footer class="page-footer">
       <div class="container page-footer__container">
-        
         <div class="page-footer__address-wrapper">
-          
           <!-- Logo -->
           <div class="logo">
             <a class="logo__link logo__link--reset-padding" href="/"
@@ -471,9 +469,7 @@
                 >
               </li>
               <li class="address__item">
-                <a class="address__link" href="mailto:info@example.com"
-                  >info@example.com</a
-                >
+                <a class="address__link" href="mailto:info@example.com">info@example.com</a>
               </li>
               <li class="address__item">
                 <a class="address__link" href="tel:380991111111">+38 099 111 11 11</a>
@@ -523,15 +519,19 @@
                 </div>
               </a>
             </li>
-
-          
+          </ul>
         </div>
 
         <!-- Subscribe -->
         <div class="subscribe-section">
           <form action="#">
             <h2 class="subscribe-section__title">Подпишитесь на рассылку</h2>
-            <input class="subscribe-section__input" type="email" name="email" placeholder="E-Mail" />
+            <input
+              class="subscribe-section__input"
+              type="email"
+              name="email"
+              placeholder="E-Mail"
+            />
             <button class="btn subscribe-section__btn" type="submit">
               Подписаться<svg class="subscribe-section__icon">
                 <use xlink:href="./images/icons.svg#icon-send"></use>
@@ -539,14 +539,12 @@
             </button>
           </form>
         </div>
-
       </div>
     </footer>
 
     <!-- Modal window -->
     <div class="modal is-hidden" data-modal>
       <div class="modal__window">
-        
         <!-- Close button -->
         <svg class="modal__close-icon" data-modal-close>
           <use xlink:href="./images/icons.svg#icon-close"></use>
@@ -554,10 +552,9 @@
 
         <!-- Submit form -->
         <form class="modal__form" action="#">
-          <div class="modal__form-wrapper" role="group" aria-labelledby="modal__form-title">
-            
+          <div class="modal__form-wrapper" role="group" aria-labelledby="modal__form-label">
             <!-- Form title -->
-            <p class="modal__form-title">Оставьте свои данные, мы вам перезвоним</p>
+            <p id="modal__form-label" class="modal__form-title">Оставьте свои данные, мы вам перезвоним</p>
 
             <!-- Name -->
             <label class="modal__input-box">
@@ -571,7 +568,13 @@
             <!-- Tel -->
             <label class="modal__input-box">
               <span class="modal__input-label">Телефон</span>
-              <input class="modal__input" type="tel" id="input-tel" name="input-tel" pattern="\+[1-9]{1}[0-9]{3,14}" />
+              <input
+                class="modal__input"
+                type="tel"
+                id="input-tel"
+                name="input-tel"
+                pattern="\+[1-9]{1}[0-9]{3,14}"
+              />
               <svg class="modal__input-icon">
                 <use xlink:href="./images/icons.svg#icon-mobile"></use>
               </svg>
@@ -589,8 +592,9 @@
             <!-- Comment -->
             <label class="modal__input-box">
               <span class="modal__input-label">Комментарий</span>
-              <textarea class="modal__comment-area"
-                name="feedback-comment"                
+              <textarea
+                class="modal__comment-area"
+                name="feedback-comment"
                 cols="30"
                 rows="10"
                 placeholder="Введите текст"
@@ -599,7 +603,7 @@
 
             <!-- Checkbox -->
             <label class="modal__checkbox-box">
-              <input class="modal__checkbox-native" type="checkbox" name="agree-policy"/>
+              <input class="modal__checkbox-native" type="checkbox" name="agree-policy" />
 
               <!-- Checkbox icon -->
               <span class="modal__checkbox-icon-custom">
@@ -619,7 +623,7 @@
         </form>
       </div>
     </div>
-    
+
     <script src="./js/modal.js"></script>
   </body>
 </html>
